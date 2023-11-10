@@ -1,0 +1,9 @@
+{
+  "name": "MegaBaseTech",
+  "version": "1.0.0",
+  "title": "MegaBase Tech",
+  "author": "twistermonkey",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.0"],
+  "description": "Research technologies for building a mega base"
+}
