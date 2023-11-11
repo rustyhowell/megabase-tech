@@ -3,7 +3,7 @@ data:extend(
         {
             type = "technology",
             name="megabase-tech-automation",
-            icon = "__MegaBaseTech__/graphics/automation-lab.png",
+            icon = "__megabase-tech__/graphics/automation-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -20,7 +20,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-logistic",
-            icon = "__MegaBaseTech__/graphics/logistics-lab.png",
+            icon = "__megabase-tech__/graphics/logistics-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -38,7 +38,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-military",
-            icon = "__MegaBaseTech__/graphics/military-lab.png",
+            icon = "__megabase-tech__/graphics/military-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -57,7 +57,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-chemical",
-            icon = "__MegaBaseTech__/graphics/chemical.png",
+            icon = "__megabase-tech__/graphics/chemical-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -77,7 +77,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-production",
-            icon = "__MegaBaseTech__/graphics/production-lab.png",
+            icon = "__megabase-tech__/graphics/production-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -98,7 +98,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-utility",
-            icon = "__MegaBaseTech__/graphics/utility-lab.png",
+            icon = "__megabase-tech__/graphics/utility-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {
@@ -120,7 +120,7 @@ data:extend(
         {
             type = "technology",
             name = "megabase-tech-space",
-            icon = "__MegaBaseTech__/graphics/space-lab.png",
+            icon = "__megabase-tech__/graphics/space-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
             unit = {

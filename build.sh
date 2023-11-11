@@ -9,19 +9,20 @@ mkdir -p ${WORKDIR}
 
 cp -a . ${WORKDIR}
 
-pushd ${WORKDIR}
 
-find . -name "*.sh" -delete
-find . -name "*.zip" -delete
-find . -name "*.xcf" -delete
-rm -rf .git*
+find ${WORKDIR} -name "*.sh" -delete
+find ${WORKDIR} -name "*.zip" -delete
+rm -rf ${WORKDIR}/.git*
+rm -rf ${WORKDIR}/graphics/src/
 
 
 V=$(cat info.json | jq -r '.version')
 
-zip -r megabase-tech_${V}.zip .
+
+pushd /tmp
+zip -r megabase-tech_${V}.zip megabase-tech
 
 popd
-mv ${WORKDIR}/*.zip .
+mv /tmp/megabase-tech*zip .
 
 
