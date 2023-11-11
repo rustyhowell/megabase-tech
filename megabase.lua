@@ -19,7 +19,7 @@ data:extend(
         },
         {
             type = "technology",
-            name = "megabase-tech-logistic",
+            name = "megabase-tech-logistics",
             icon = "__megabase-tech__/graphics/logistics-lab.png",
             icon_size = 256,
             prerequisites = {"space-science-pack"},
