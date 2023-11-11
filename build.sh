@@ -26,3 +26,6 @@ popd
 mv /tmp/megabase-tech*zip .
 
 
+cp ./megabase-tech*zip ~/.factorio/mods
+
+
